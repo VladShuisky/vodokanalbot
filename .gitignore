@@ -1,0 +1,54 @@
+### Go ###
+# Бинарные файлы
+/bin/
+/out/
+/dist/
+*.exe
+*.dll
+*.so
+*.out
+*.test
+
+# Файлы зависимостей и кэша
+/go.sum
+/vendor/
+/pkg/mod/
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-*
+
+# Тестовые и профилировочные файлы
+*.log
+*.prof
+*.cpuprof
+*.memprof
+coverage.html
+coverage.out
+
+# Автогенерируемые файлы
+*.pb.go
+*.pb.gw.go
+*.swagger.json
+*-generated.go
+
+# Файлы окружения и конфигурации
+.env
+.env.local
+.env*.local
+config.yml
+secrets.*
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.orig
+*.bak
+
+# Опционально (если не используете)
+debug/
+tmp/
+.air.toml
