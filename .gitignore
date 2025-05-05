@@ -10,7 +10,7 @@
 *.test
 
 # Файлы зависимостей и кэша
-/go.sum
+# /go.sum
 /vendor/
 /pkg/mod/
 
