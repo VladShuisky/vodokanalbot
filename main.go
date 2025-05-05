@@ -2,8 +2,8 @@ package main
 
 import (
 	"log"
-	"github.com/VladShuisky/vodokanalbot.git/utils"
-	"github.com/VladShuisky/vodokanalbot.git/bot"
+	"github.com/VladShuisky/vodokanalbot/utils"
+	"github.com/VladShuisky/vodokanalbot/bot"
 )
 
 

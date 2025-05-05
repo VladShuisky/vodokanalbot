@@ -4,10 +4,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/davecgh/go-spew/spew"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 
-	"github.com/VladShuisky/vodokanalbot.git/parsing"
+	"github.com/VladShuisky/vodokanalbot/parsing"
 )
 
 func StartBot() {
