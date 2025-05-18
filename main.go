@@ -1,7 +1,7 @@
 package main
 
 import (
-	"log"
+	// "log"
 
 	// "fmt"
 	// "log"
@@ -10,7 +10,7 @@ import (
 	"github.com/VladShuisky/vodokanalbot/bot"
 	"github.com/VladShuisky/vodokanalbot/database"
 	// "github.com/VladShuisky/vodokanalbot/parsing"
-	"github.com/VladShuisky/vodokanalbot/utils"
+	// "github.com/VladShuisky/vodokanalbot/utils"
 	// "gorm.io/driver/postgres"
 	// "gorm.io/gorm"
 	// "gorm.io/gorm/logger"
