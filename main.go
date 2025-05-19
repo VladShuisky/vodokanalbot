@@ -1,23 +1,8 @@
 package main
 
 import (
-	// "log"
-
-	// "fmt"
-	// "log"
-	// "os"
-
 	"github.com/VladShuisky/vodokanalbot/bot"
 	"github.com/VladShuisky/vodokanalbot/database"
-	// "github.com/VladShuisky/vodokanalbot/parsing"
-	// "github.com/VladShuisky/vodokanalbot/utils"
-	// "gorm.io/driver/postgres"
-	// "gorm.io/gorm"
-	// "gorm.io/gorm/logger"
-	// "github.com/VladShuisky/vodokanalbot/utils"
-	// "github.com/VladShuisky/vodokanalbot/bot"
-	// "log"
-	// "github.com/jackc/pgx/v5"
 )
 
 func main() {
