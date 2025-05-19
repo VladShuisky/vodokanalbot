@@ -38,6 +38,10 @@ func StartBot() {
 		var msg tgbotapi.MessageConfig
 		//
 		switch update.Message.Command() {
+		case "start":
+			message := GetStartMessage()
+			msg = tgbotapi.NewMessage(update.Message.Chat.ID, message)
+			msg.ReplyToMessageID = update.Message.MessageID
 		case "get_last_info":
 			htmlFromVodokanal := parsing.GetHtmlDataFromVodokanal()
 			targetTexts := parsing.ExtractText(htmlFromVodokanal)
